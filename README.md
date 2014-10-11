@@ -10,4 +10,4 @@ Simply use [CocoaPods](http://cocoapods.org/):
 
 ## The icons
 
-![Screenshot](https://raw.github.com//yichizhang/YZIconKit/ScreenShot1.png)
+![Screenshot](https://raw.githubusercontent.com/yichizhang/YZIconKit/master/ScreenShot1.png)

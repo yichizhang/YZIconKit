@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12ACF63A19E9555E00959FDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12ACF63919E9555E00959FDE /* main.m */; };
+		12ACF63D19E9555E00959FDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12ACF63C19E9555E00959FDE /* AppDelegate.m */; };
+		12ACF64319E9555E00959FDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12ACF64119E9555E00959FDE /* Main.storyboard */; };
+		12ACF64519E9555E00959FDE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12ACF64419E9555E00959FDE /* Images.xcassets */; };
+		12ACF64819E9555E00959FDE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12ACF64619E9555E00959FDE /* LaunchScreen.xib */; };
+		12ACF65419E9555E00959FDE /* YZIconKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12ACF65319E9555E00959FDE /* YZIconKitDemoTests.m */; };
+		12ACF66419E9587200959FDE /* YZIconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12ACF66019E9587200959FDE /* YZIconCell.m */; };
+		12ACF66519E9587200959FDE /* YZIconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12ACF66119E9587200959FDE /* YZIconCell.xib */; };
+		12ACF66619E9587200959FDE /* YZIconDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12ACF66319E9587200959FDE /* YZIconDemoViewController.m */; };
+		12ACF66A19E95CB000959FDE /* YZIconKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 12ACF66919E95CB000959FDE /* YZIconKit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12ACF64E19E9555E00959FDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12ACF62C19E9555E00959FDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12ACF63319E9555E00959FDE;
+			remoteInfo = YZIconKitDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12ACF63419E9555E00959FDE /* YZIconKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZIconKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12ACF63819E9555E00959FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12ACF63919E9555E00959FDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12ACF63B19E9555E00959FDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12ACF63C19E9555E00959FDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12ACF64219E9555E00959FDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12ACF64419E9555E00959FDE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		12ACF64719E9555E00959FDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		12ACF64D19E9555E00959FDE /* YZIconKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZIconKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12ACF65219E9555E00959FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12ACF65319E9555E00959FDE /* YZIconKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZIconKitDemoTests.m; sourceTree = "<group>"; };
+		12ACF65F19E9587200959FDE /* YZIconCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZIconCell.h; sourceTree = "<group>"; };
+		12ACF66019E9587200959FDE /* YZIconCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZIconCell.m; sourceTree = "<group>"; };
+		12ACF66119E9587200959FDE /* YZIconCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YZIconCell.xib; sourceTree = "<group>"; };
+		12ACF66219E9587200959FDE /* YZIconDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZIconDemoViewController.h; sourceTree = "<group>"; };
+		12ACF66319E9587200959FDE /* YZIconDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZIconDemoViewController.m; sourceTree = "<group>"; };
+		12ACF66819E95CB000959FDE /* YZIconKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZIconKit.h; sourceTree = "<group>"; };
+		12ACF66919E95CB000959FDE /* YZIconKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZIconKit.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12ACF63119E9555E00959FDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12ACF64A19E9555E00959FDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12ACF62B19E9555E00959FDE = {
+			isa = PBXGroup;
+			children = (
+				12ACF66719E95CB000959FDE /* YZIconKit */,
+				12ACF65D19E9587200959FDE /* Classes */,
+				12ACF63619E9555E00959FDE /* YZIconKitDemo */,
+				12ACF65019E9555E00959FDE /* YZIconKitDemoTests */,
+				12ACF63519E9555E00959FDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12ACF63519E9555E00959FDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12ACF63419E9555E00959FDE /* YZIconKitDemo.app */,
+				12ACF64D19E9555E00959FDE /* YZIconKitDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12ACF63619E9555E00959FDE /* YZIconKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				12ACF63B19E9555E00959FDE /* AppDelegate.h */,
+				12ACF63C19E9555E00959FDE /* AppDelegate.m */,
+				12ACF64119E9555E00959FDE /* Main.storyboard */,
+				12ACF64419E9555E00959FDE /* Images.xcassets */,
+				12ACF64619E9555E00959FDE /* LaunchScreen.xib */,
+				12ACF63719E9555E00959FDE /* Supporting Files */,
+			);
+			path = YZIconKitDemo;
+			sourceTree = "<group>";
+		};
+		12ACF63719E9555E00959FDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12ACF63819E9555E00959FDE /* Info.plist */,
+				12ACF63919E9555E00959FDE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12ACF65019E9555E00959FDE /* YZIconKitDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				12ACF65319E9555E00959FDE /* YZIconKitDemoTests.m */,
+				12ACF65119E9555E00959FDE /* Supporting Files */,
+			);
+			path = YZIconKitDemoTests;
+			sourceTree = "<group>";
+		};
+		12ACF65119E9555E00959FDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12ACF65219E9555E00959FDE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12ACF65D19E9587200959FDE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				12ACF65E19E9587200959FDE /* UI */,
+			);
+			name = Classes;
+			path = YZIconKitDemo/Classes;
+			sourceTree = "<group>";
+		};
+		12ACF65E19E9587200959FDE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				12ACF65F19E9587200959FDE /* YZIconCell.h */,
+				12ACF66019E9587200959FDE /* YZIconCell.m */,
+				12ACF66119E9587200959FDE /* YZIconCell.xib */,
+				12ACF66219E9587200959FDE /* YZIconDemoViewController.h */,
+				12ACF66319E9587200959FDE /* YZIconDemoViewController.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		12ACF66719E95CB000959FDE /* YZIconKit */ = {
+			isa = PBXGroup;
+			children = (
+				12ACF66819E95CB000959FDE /* YZIconKit.h */,
+				12ACF66919E95CB000959FDE /* YZIconKit.m */,
+			);
+			name = YZIconKit;
+			path = ../YZIconKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12ACF63319E9555E00959FDE /* YZIconKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12ACF65719E9555E00959FDE /* Build configuration list for PBXNativeTarget "YZIconKitDemo" */;
+			buildPhases = (
+				12ACF63019E9555E00959FDE /* Sources */,
+				12ACF63119E9555E00959FDE /* Frameworks */,
+				12ACF63219E9555E00959FDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZIconKitDemo;
+			productName = YZIconKitDemo;
+			productReference = 12ACF63419E9555E00959FDE /* YZIconKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12ACF64C19E9555E00959FDE /* YZIconKitDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12ACF65A19E9555E00959FDE /* Build configuration list for PBXNativeTarget "YZIconKitDemoTests" */;
+			buildPhases = (
+				12ACF64919E9555E00959FDE /* Sources */,
+				12ACF64A19E9555E00959FDE /* Frameworks */,
+				12ACF64B19E9555E00959FDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12ACF64F19E9555E00959FDE /* PBXTargetDependency */,
+			);
+			name = YZIconKitDemoTests;
+			productName = YZIconKitDemoTests;
+			productReference = 12ACF64D19E9555E00959FDE /* YZIconKitDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12ACF62C19E9555E00959FDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Yichi Zhang";
+				TargetAttributes = {
+					12ACF63319E9555E00959FDE = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					12ACF64C19E9555E00959FDE = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 12ACF63319E9555E00959FDE;
+					};
+				};
+			};
+			buildConfigurationList = 12ACF62F19E9555E00959FDE /* Build configuration list for PBXProject "YZIconKitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12ACF62B19E9555E00959FDE;
+			productRefGroup = 12ACF63519E9555E00959FDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12ACF63319E9555E00959FDE /* YZIconKitDemo */,
+				12ACF64C19E9555E00959FDE /* YZIconKitDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12ACF63219E9555E00959FDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12ACF64319E9555E00959FDE /* Main.storyboard in Resources */,
+				12ACF64819E9555E00959FDE /* LaunchScreen.xib in Resources */,
+				12ACF64519E9555E00959FDE /* Images.xcassets in Resources */,
+				12ACF66519E9587200959FDE /* YZIconCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12ACF64B19E9555E00959FDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12ACF63019E9555E00959FDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12ACF66619E9587200959FDE /* YZIconDemoViewController.m in Sources */,
+				12ACF66A19E95CB000959FDE /* YZIconKit.m in Sources */,
+				12ACF63D19E9555E00959FDE /* AppDelegate.m in Sources */,
+				12ACF63A19E9555E00959FDE /* main.m in Sources */,
+				12ACF66419E9587200959FDE /* YZIconCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12ACF64919E9555E00959FDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12ACF65419E9555E00959FDE /* YZIconKitDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12ACF64F19E9555E00959FDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12ACF63319E9555E00959FDE /* YZIconKitDemo */;
+			targetProxy = 12ACF64E19E9555E00959FDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12ACF64119E9555E00959FDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12ACF64219E9555E00959FDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12ACF64619E9555E00959FDE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12ACF64719E9555E00959FDE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12ACF65519E9555E00959FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		12ACF65619E9555E00959FDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12ACF65819E9555E00959FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YZIconKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12ACF65919E9555E00959FDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YZIconKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		12ACF65B19E9555E00959FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YZIconKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YZIconKitDemo.app/YZIconKitDemo";
+			};
+			name = Debug;
+		};
+		12ACF65C19E9555E00959FDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YZIconKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YZIconKitDemo.app/YZIconKitDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12ACF62F19E9555E00959FDE /* Build configuration list for PBXProject "YZIconKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12ACF65519E9555E00959FDE /* Debug */,
+				12ACF65619E9555E00959FDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12ACF65719E9555E00959FDE /* Build configuration list for PBXNativeTarget "YZIconKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12ACF65819E9555E00959FDE /* Debug */,
+				12ACF65919E9555E00959FDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12ACF65A19E9555E00959FDE /* Build configuration list for PBXNativeTarget "YZIconKitDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12ACF65B19E9555E00959FDE /* Debug */,
+				12ACF65C19E9555E00959FDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12ACF62C19E9555E00959FDE /* Project object */;
+}

@@ -47,7 +47,7 @@ static NSString * const reuseIdentifier = @"YZIconCell";
     [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
     
     // Do any additional setup after loading the view.
-    NSString *iconNames = @"People,Camera,Info";
+    NSString *iconNames = @"People,Camera,Info,HookTurn,Koala,Emu,Kangaroo,WildHorse,Camel,Wombat";
     self.iconNameArray = [iconNames
                           componentsSeparatedByString:@","];
     

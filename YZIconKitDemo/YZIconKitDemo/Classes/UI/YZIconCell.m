@@ -30,7 +30,6 @@
     func(_controller, selector);
     */
     
-    self.imageView.contentMode = UIViewContentModeCenter;
     self.imageView.clipsToBounds = YES;
     self.imageView.image = [[YZIconKit class]
                             performSelector:NSSelectorFromString(selectorName)

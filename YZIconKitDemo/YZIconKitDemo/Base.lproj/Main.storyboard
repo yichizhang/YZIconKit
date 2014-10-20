@@ -20,7 +20,7 @@
             </objects>
             <point key="canvasLocation" x="-326" y="-635"/>
         </scene>
-        <!--YZIconDemo-->
+        <!--All Icons-->
         <scene sceneID="pQO-W3-YlJ">
             <objects>
                 <collectionViewController id="ndb-HI-ruF" customClass="YZIconDemoViewController" sceneMemberID="viewController">
@@ -40,7 +40,7 @@
                             <outlet property="delegate" destination="ndb-HI-ruF" id="JU4-sE-q5Z"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" title="YZIconDemo" id="RwR-mv-be3"/>
+                    <navigationItem key="navigationItem" title="All Icons" id="RwR-mv-be3"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wSK-qy-Txe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

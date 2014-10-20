@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		123108DC19F597BC0049A3E8 /* YZUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 123108DB19F597BC0049A3E8 /* YZUtility.m */; };
 		12ACF63A19E9555E00959FDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12ACF63919E9555E00959FDE /* main.m */; };
 		12ACF63D19E9555E00959FDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12ACF63C19E9555E00959FDE /* AppDelegate.m */; };
 		12ACF64319E9555E00959FDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12ACF64119E9555E00959FDE /* Main.storyboard */; };
@@ -30,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		123108DA19F597BC0049A3E8 /* YZUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZUtility.h; sourceTree = "<group>"; };
+		123108DB19F597BC0049A3E8 /* YZUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZUtility.m; sourceTree = "<group>"; };
 		12ACF63419E9555E00959FDE /* YZIconKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZIconKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12ACF63819E9555E00959FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12ACF63919E9555E00959FDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -144,6 +147,8 @@
 				12ACF66119E9587200959FDE /* YZIconCell.xib */,
 				12ACF66219E9587200959FDE /* YZIconDemoViewController.h */,
 				12ACF66319E9587200959FDE /* YZIconDemoViewController.m */,
+				123108DA19F597BC0049A3E8 /* YZUtility.h */,
+				123108DB19F597BC0049A3E8 /* YZUtility.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 				12ACF66619E9587200959FDE /* YZIconDemoViewController.m in Sources */,
 				12ACF66A19E95CB000959FDE /* YZIconKit.m in Sources */,
 				12ACF63D19E9555E00959FDE /* AppDelegate.m in Sources */,
+				123108DC19F597BC0049A3E8 /* YZUtility.m in Sources */,
 				12ACF63A19E9555E00959FDE /* main.m in Sources */,
 				12ACF66419E9587200959FDE /* YZIconCell.m in Sources */,
 			);
@@ -454,6 +460,7 @@
 				12ACF65919E9555E00959FDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12ACF65A19E9555E00959FDE /* Build configuration list for PBXNativeTarget "YZIconKitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +469,7 @@
 				12ACF65C19E9555E00959FDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

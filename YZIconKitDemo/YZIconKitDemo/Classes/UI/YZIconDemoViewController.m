@@ -14,6 +14,8 @@
 
 #import "YZIconDemoViewController.h"
 #import "YZIconCell.h"
+#import "YZIconKit.h"
+#import "YZUtility.h"
 
 @interface YZIconDemoViewController ()
 
@@ -72,6 +74,55 @@ static NSString * const reuseIdentifier = @"YZIconCell";
     
     double screenWidth = [[UIScreen mainScreen] bounds].size.width;
     return CGSizeMake(screenWidth/3, screenWidth/3);
+    
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    
+    CGSize size = CGSizeMake(40, 40);
+    
+    UITabBarController *tabVC = [[UITabBarController alloc] init];
+    tabVC.title = @"Icon";
+    
+    UIViewController *vc1 = [UIViewController new];
+    UIViewController *vc2 = [UIViewController new];
+    UIViewController *vc3 = [UIViewController new];
+    
+    [tabVC setViewControllers:
+     @[vc1, vc2, vc3]
+     ];
+    
+    [tabVC setSelectedIndex:1];
+    
+    NSInteger i = 0;
+    for (UIViewController *vc in tabVC.viewControllers) {
+        
+        NSInteger idx = indexPath.row - 1 + i;
+        
+        if (idx < 0) {
+            idx = 0;
+        }else if (idx > [self.iconNameArray count]-1){
+            idx = [self.iconNameArray count]-1;
+        }
+        
+        NSString *iconName = [self.iconNameArray objectAtIndex:idx];
+        UIImage *fullImg = [YZUtility imageOfIconName:iconName];
+        UIImage *resizedImg = [YZUtility scaledImage:fullImg toSize:size];
+        UIImageView *imgView = [[UIImageView alloc] initWithImage:fullImg];
+        
+        imgView.center = vc.view.center;
+        
+        vc.view.backgroundColor = [UIColor whiteColor];
+        [vc.view addSubview:imgView];
+        vc.tabBarItem = [[UITabBarItem alloc] initWithTitle:iconName
+                                                       image:resizedImg
+                                                         tag:i
+                          ];
+        
+        i++;
+    }
+    
+    [self.navigationController pushViewController:tabVC animated:YES];
     
 }
 

@@ -15,25 +15,16 @@
 #import "YZIconCell.h"
 #import "YZIconKit.h"
 
+#import "YZUtility.h"
+
 @implementation YZIconCell
 
 - (void)setupCellWithData:(id)data{
     
-    NSString * name = (NSString*)data;
-    
-    NSString * selectorName = [NSString stringWithFormat:@"imageOf%@", name];
-    
-    /*
-    SEL selector = NSSelectorFromString(selectorName);
-    IMP imp = [[YZIconKit class] methodForSelector:selector];
-    void (*func)(id, SEL) = (void *)imp;
-    func(_controller, selector);
-    */
+    NSString *name = data;
     
     self.imageView.clipsToBounds = YES;
-    self.imageView.image = [[YZIconKit class]
-                            performSelector:NSSelectorFromString(selectorName)
-                            ];
+    self.imageView.image = [YZUtility imageOfIconName:name];
 
     self.titleLabel.numberOfLines = 1;
     self.titleLabel.text = name;
